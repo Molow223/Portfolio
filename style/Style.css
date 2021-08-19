@@ -221,6 +221,17 @@ section{
     margin: 20px auto;
     padding-bottom: 40px;
 }
+.work__block a img{
+    width: 200px;
+    height: auto;
+    margin: 20px;
+    
+}
+.wrap{
+    max-width: 1140px;
+    display: flex;
+    flex-wrap: wrap;
+}
 .column{
     display: flex;
     justify-content: center;
@@ -371,15 +382,7 @@ section{
         justify-content: center;
     }
 }
-.imeg{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.imeg img{
-    width: 250px;
-    height: 200px;
-}
+
 #footer{
     display: flex;
     flex-direction: row;
